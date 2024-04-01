@@ -1,0 +1,12 @@
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLdDataAccessLayer\bin\Debug\clsDVLdDataAccessLayer.dll
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLdDataAccessLayer\bin\Debug\clsDVLdDataAccessLayer.pdb
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLdDataAccessLayer\obj\Debug\clsDVLdDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLdDataAccessLayer\obj\Debug\clsDVLdDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLdDataAccessLayer\obj\Debug\clsDVLdDataAccessLayer.dll
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLdDataAccessLayer\obj\Debug\clsDVLdDataAccessLayer.pdb
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_AccessLayer\obj\Debug\clsDVLdDataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_AccessLayer\obj\Debug\clsDVLdDataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_AccessLayer\bin\Debug\DVLD_Access.dll
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_AccessLayer\bin\Debug\DVLD_Access.pdb
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_AccessLayer\obj\Debug\DVLD_Access.dll
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_AccessLayer\obj\Debug\DVLD_Access.pdb

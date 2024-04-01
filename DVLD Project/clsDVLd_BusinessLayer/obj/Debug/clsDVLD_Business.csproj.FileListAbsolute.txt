@@ -1,0 +1,8 @@
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\bin\Debug\DVLD_Business.dll
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\bin\Debug\DVLD_Business.pdb
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\bin\Debug\clsDVLdDataAccessLayer.pdb
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\obj\Debug\clsDVLD_Business.csproj.AssemblyReference.cache
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\obj\Debug\clsDVLD_Business.csproj.CoreCompileInputs.cache
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\obj\Debug\clsDVLD_Business.csproj.CopyComplete
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\obj\Debug\DVLD_Business.dll
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\obj\Debug\DVLD_Business.pdb

@@ -1,0 +1,17 @@
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLdDataBusinessLayer\obj\Debug\clsDVLdDataBusinessLayer.csproj.AssemblyReference.cache
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLdDataBusinessLayer\obj\Debug\clsDVLdDataBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLdDataBusinessLayer\bin\Debug\clsDVLdDataBusinessLayer.dll
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLdDataBusinessLayer\bin\Debug\clsDVLdDataBusinessLayer.pdb
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLdDataBusinessLayer\bin\Debug\clsDVLdDataAccessLayer.dll
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLdDataBusinessLayer\bin\Debug\clsDVLdDataAccessLayer.pdb
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLdDataBusinessLayer\obj\Debug\clsDVLdDataBusinessLayer.csproj.CopyComplete
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLdDataBusinessLayer\obj\Debug\clsDVLdDataBusinessLayer.dll
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLdDataBusinessLayer\obj\Debug\clsDVLdDataBusinessLayer.pdb
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\bin\Debug\clsDVLD_Business.dll
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\bin\Debug\clsDVLD_Business.pdb
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\bin\Debug\clsDVLdDataAccessLayer.pdb
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\obj\Debug\clsDVLdDataBusinessLayer.csproj.AssemblyReference.cache
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\obj\Debug\clsDVLdDataBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\obj\Debug\clsDVLdDataBusinessLayer.csproj.CopyComplete
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\obj\Debug\clsDVLD_Business.dll
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_BusinessLayer\obj\Debug\clsDVLD_Business.pdb

@@ -1,0 +1,6 @@
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_AccessLayer\bin\Release\DVLD_Access.dll
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_AccessLayer\bin\Release\DVLD_Access.pdb
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_AccessLayer\obj\Release\DVLD_Access.csproj.AssemblyReference.cache
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_AccessLayer\obj\Release\DVLD_Access.csproj.CoreCompileInputs.cache
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_AccessLayer\obj\Release\DVLD_Access.dll
+C:\Users\USERZ\Desktop\DVLD Project\clsDVLd_AccessLayer\obj\Release\DVLD_Access.pdb
