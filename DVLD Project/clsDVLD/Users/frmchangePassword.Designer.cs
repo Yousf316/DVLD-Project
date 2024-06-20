@@ -159,8 +159,9 @@
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.ctrShowUserInfo1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frmchangePassword";
-            this.Text = "frmchangePassword";
+            this.Text = "change Password";
             this.Load += new System.EventHandler(this.frmchangePassword_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

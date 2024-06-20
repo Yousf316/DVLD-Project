@@ -59,9 +59,10 @@
             this.lbtitle.AutoSize = true;
             this.lbtitle.Font = new System.Drawing.Font("Tahoma", 18F);
             this.lbtitle.ForeColor = System.Drawing.Color.Red;
-            this.lbtitle.Location = new System.Drawing.Point(143, 21);
+            this.lbtitle.Location = new System.Drawing.Point(167, 26);
+            this.lbtitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbtitle.Name = "lbtitle";
-            this.lbtitle.Size = new System.Drawing.Size(425, 29);
+            this.lbtitle.Size = new System.Drawing.Size(537, 36);
             this.lbtitle.TabIndex = 27;
             this.lbtitle.Text = "Replacment Driving License Application";
             // 
@@ -70,9 +71,10 @@
             this.lnlbShowRenewlicense.AutoSize = true;
             this.lnlbShowRenewlicense.Enabled = false;
             this.lnlbShowRenewlicense.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.lnlbShowRenewlicense.Location = new System.Drawing.Point(243, 683);
+            this.lnlbShowRenewlicense.Location = new System.Drawing.Point(284, 841);
+            this.lnlbShowRenewlicense.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnlbShowRenewlicense.Name = "lnlbShowRenewlicense";
-            this.lnlbShowRenewlicense.Size = new System.Drawing.Size(241, 18);
+            this.lnlbShowRenewlicense.Size = new System.Drawing.Size(314, 23);
             this.lnlbShowRenewlicense.TabIndex = 26;
             this.lnlbShowRenewlicense.TabStop = true;
             this.lnlbShowRenewlicense.Text = "Show Renew License License Details";
@@ -82,9 +84,10 @@
             this.lnkLicneseHistory.AutoSize = true;
             this.lnkLicneseHistory.Enabled = false;
             this.lnkLicneseHistory.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.lnkLicneseHistory.Location = new System.Drawing.Point(16, 683);
+            this.lnkLicneseHistory.Location = new System.Drawing.Point(19, 841);
+            this.lnkLicneseHistory.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnkLicneseHistory.Name = "lnkLicneseHistory";
-            this.lnkLicneseHistory.Size = new System.Drawing.Size(196, 18);
+            this.lnkLicneseHistory.Size = new System.Drawing.Size(253, 23);
             this.lnkLicneseHistory.TabIndex = 25;
             this.lnkLicneseHistory.TabStop = true;
             this.lnkLicneseHistory.Text = "Show License License History";
@@ -93,10 +96,10 @@
             // 
             this.button2.Image = global::DVLD_Presentation.Properties.Resources.icons8_cancel_30;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(521, 676);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Location = new System.Drawing.Point(608, 832);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 34);
+            this.button2.Size = new System.Drawing.Size(139, 42);
             this.button2.TabIndex = 23;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
@@ -107,10 +110,10 @@
             this.btnReplased.Enabled = false;
             this.btnReplased.Image = global::DVLD_Presentation.Properties.Resources.IssueDrivingLicense_32;
             this.btnReplased.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReplased.Location = new System.Drawing.Point(655, 676);
-            this.btnReplased.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnReplased.Location = new System.Drawing.Point(764, 832);
+            this.btnReplased.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnReplased.Name = "btnReplased";
-            this.btnReplased.Size = new System.Drawing.Size(119, 34);
+            this.btnReplased.Size = new System.Drawing.Size(139, 42);
             this.btnReplased.TabIndex = 22;
             this.btnReplased.Text = "Replease";
             this.btnReplased.UseVisualStyleBackColor = true;
@@ -121,9 +124,11 @@
             this.groupBox1.Controls.Add(this.rdLostLicense);
             this.groupBox1.Controls.Add(this.rdDamagedLicense);
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 9F);
-            this.groupBox1.Location = new System.Drawing.Point(511, 68);
+            this.groupBox1.Location = new System.Drawing.Point(596, 84);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(200, 76);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(233, 94);
             this.groupBox1.TabIndex = 28;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Repalecment for";
@@ -131,9 +136,10 @@
             // rdLostLicense
             // 
             this.rdLostLicense.AutoSize = true;
-            this.rdLostLicense.Location = new System.Drawing.Point(6, 53);
+            this.rdLostLicense.Location = new System.Drawing.Point(7, 65);
+            this.rdLostLicense.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdLostLicense.Name = "rdLostLicense";
-            this.rdLostLicense.Size = new System.Drawing.Size(92, 18);
+            this.rdLostLicense.Size = new System.Drawing.Size(108, 22);
             this.rdLostLicense.TabIndex = 1;
             this.rdLostLicense.TabStop = true;
             this.rdLostLicense.Text = "Lost License";
@@ -142,9 +148,10 @@
             // rdDamagedLicense
             // 
             this.rdDamagedLicense.AutoSize = true;
-            this.rdDamagedLicense.Location = new System.Drawing.Point(6, 30);
+            this.rdDamagedLicense.Location = new System.Drawing.Point(7, 37);
+            this.rdDamagedLicense.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rdDamagedLicense.Name = "rdDamagedLicense";
-            this.rdDamagedLicense.Size = new System.Drawing.Size(120, 18);
+            this.rdDamagedLicense.Size = new System.Drawing.Size(144, 22);
             this.rdDamagedLicense.TabIndex = 0;
             this.rdDamagedLicense.TabStop = true;
             this.rdDamagedLicense.Text = "Damaged License";
@@ -166,9 +173,11 @@
             this.groupBox2.Controls.Add(this.lbApplicationID);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Font = new System.Drawing.Font("Tahoma", 13F);
-            this.groupBox2.Location = new System.Drawing.Point(12, 478);
+            this.groupBox2.Location = new System.Drawing.Point(14, 588);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(758, 167);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(884, 206);
             this.groupBox2.TabIndex = 29;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Application Replacment License Information";
@@ -176,126 +185,138 @@
             // lbOldLicenseID
             // 
             this.lbOldLicenseID.AutoSize = true;
-            this.lbOldLicenseID.Location = new System.Drawing.Point(580, 74);
+            this.lbOldLicenseID.Location = new System.Drawing.Point(677, 91);
+            this.lbOldLicenseID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbOldLicenseID.Name = "lbOldLicenseID";
-            this.lbOldLicenseID.Size = new System.Drawing.Size(40, 22);
+            this.lbOldLicenseID.Size = new System.Drawing.Size(48, 27);
             this.lbOldLicenseID.TabIndex = 15;
             this.lbOldLicenseID.Text = "N/A";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(421, 74);
+            this.label13.Location = new System.Drawing.Point(491, 91);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(137, 22);
+            this.label13.Size = new System.Drawing.Size(169, 27);
             this.label13.TabIndex = 14;
             this.label13.Text = "Old License ID :";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(37, 116);
+            this.label5.Location = new System.Drawing.Point(43, 143);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(149, 22);
+            this.label5.Size = new System.Drawing.Size(184, 27);
             this.label5.TabIndex = 8;
             this.label5.Text = "Application Fees :";
             // 
             // lbApplicationFees
             // 
             this.lbApplicationFees.AutoSize = true;
-            this.lbApplicationFees.Location = new System.Drawing.Point(193, 116);
+            this.lbApplicationFees.Location = new System.Drawing.Point(225, 143);
+            this.lbApplicationFees.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbApplicationFees.Name = "lbApplicationFees";
-            this.lbApplicationFees.Size = new System.Drawing.Size(40, 22);
+            this.lbApplicationFees.Size = new System.Drawing.Size(48, 27);
             this.lbApplicationFees.TabIndex = 9;
             this.lbApplicationFees.Text = "N/A";
             // 
             // lbCreatedBy
             // 
             this.lbCreatedBy.AutoSize = true;
-            this.lbCreatedBy.Location = new System.Drawing.Point(581, 116);
+            this.lbCreatedBy.Location = new System.Drawing.Point(678, 143);
+            this.lbCreatedBy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbCreatedBy.Name = "lbCreatedBy";
-            this.lbCreatedBy.Size = new System.Drawing.Size(40, 22);
+            this.lbCreatedBy.Size = new System.Drawing.Size(48, 27);
             this.lbCreatedBy.TabIndex = 7;
             this.lbCreatedBy.Text = "N/A";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(448, 116);
+            this.label8.Location = new System.Drawing.Point(523, 143);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(108, 22);
+            this.label8.Size = new System.Drawing.Size(134, 27);
             this.label8.TabIndex = 6;
             this.label8.Text = "Created By :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(38, 74);
+            this.label4.Location = new System.Drawing.Point(44, 91);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 22);
+            this.label4.Size = new System.Drawing.Size(185, 27);
             this.label4.TabIndex = 2;
             this.label4.Text = "Application Date :";
             // 
             // lbReplacedLicenseID
             // 
             this.lbReplacedLicenseID.AutoSize = true;
-            this.lbReplacedLicenseID.Location = new System.Drawing.Point(579, 37);
+            this.lbReplacedLicenseID.Location = new System.Drawing.Point(676, 46);
+            this.lbReplacedLicenseID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbReplacedLicenseID.Name = "lbReplacedLicenseID";
-            this.lbReplacedLicenseID.Size = new System.Drawing.Size(40, 22);
+            this.lbReplacedLicenseID.Size = new System.Drawing.Size(48, 27);
             this.lbReplacedLicenseID.TabIndex = 5;
             this.lbReplacedLicenseID.Text = "N/A";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(370, 37);
+            this.label6.Location = new System.Drawing.Point(432, 46);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(186, 22);
+            this.label6.Size = new System.Drawing.Size(232, 27);
             this.label6.TabIndex = 4;
             this.label6.Text = " Replaced License ID :";
             // 
             // lbApplicationDate
             // 
             this.lbApplicationDate.AutoSize = true;
-            this.lbApplicationDate.Location = new System.Drawing.Point(194, 74);
+            this.lbApplicationDate.Location = new System.Drawing.Point(226, 91);
+            this.lbApplicationDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbApplicationDate.Name = "lbApplicationDate";
-            this.lbApplicationDate.Size = new System.Drawing.Size(40, 22);
+            this.lbApplicationDate.Size = new System.Drawing.Size(48, 27);
             this.lbApplicationDate.TabIndex = 3;
             this.lbApplicationDate.Text = "N/A";
             // 
             // lbApplicationID
             // 
             this.lbApplicationID.AutoSize = true;
-            this.lbApplicationID.Location = new System.Drawing.Point(193, 37);
+            this.lbApplicationID.Location = new System.Drawing.Point(225, 46);
+            this.lbApplicationID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbApplicationID.Name = "lbApplicationID";
-            this.lbApplicationID.Size = new System.Drawing.Size(40, 22);
+            this.lbApplicationID.Size = new System.Drawing.Size(48, 27);
             this.lbApplicationID.TabIndex = 1;
             this.lbApplicationID.Text = "N/A";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(53, 37);
+            this.label3.Location = new System.Drawing.Point(62, 46);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 22);
+            this.label3.Size = new System.Drawing.Size(162, 27);
             this.label3.TabIndex = 0;
             this.label3.Text = "Application ID :";
             // 
             // ctrLicenseDetailsWithFilter1
             // 
             this.ctrLicenseDetailsWithFilter1.Font = new System.Drawing.Font("Tahoma", 7F);
-            this.ctrLicenseDetailsWithFilter1.Location = new System.Drawing.Point(12, 52);
-            this.ctrLicenseDetailsWithFilter1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ctrLicenseDetailsWithFilter1.Location = new System.Drawing.Point(14, 64);
+            this.ctrLicenseDetailsWithFilter1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.ctrLicenseDetailsWithFilter1.Name = "ctrLicenseDetailsWithFilter1";
-            this.ctrLicenseDetailsWithFilter1.Size = new System.Drawing.Size(758, 427);
+            this.ctrLicenseDetailsWithFilter1.Size = new System.Drawing.Size(884, 526);
             this.ctrLicenseDetailsWithFilter1.TabIndex = 24;
             this.ctrLicenseDetailsWithFilter1.OnSerachButton += new System.Action<int>(this.ctrLicenseDetailsWithFilter1_OnSerachButton);
             // 
             // frmAddReplacementDrivingLicense
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(826, 719);
+            this.ClientSize = new System.Drawing.Size(964, 885);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lbtitle);
@@ -304,6 +325,8 @@
             this.Controls.Add(this.ctrLicenseDetailsWithFilter1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnReplased);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmAddReplacementDrivingLicense";
             this.Text = "Replacement Driving License";
             this.Load += new System.EventHandler(this.frmAddReplacementDrivingLicense_Load);

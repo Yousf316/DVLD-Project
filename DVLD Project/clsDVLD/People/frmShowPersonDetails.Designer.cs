@@ -37,6 +37,7 @@
             // 
             this.ctrShowPerson1.Location = new System.Drawing.Point(57, 110);
             this.ctrShowPerson1.Name = "ctrShowPerson1";
+            this.ctrShowPerson1.obPerson = null;
             this.ctrShowPerson1.Size = new System.Drawing.Size(1103, 502);
             this.ctrShowPerson1.TabIndex = 0;
             // 
@@ -69,8 +70,9 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ctrShowPerson1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frmShowPersonDetails";
-            this.Text = "frmShowPersonDetails";
+            this.Text = "Show Person Details";
             this.Load += new System.EventHandler(this.frmShowPersonDetails_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -58,6 +58,7 @@
             this.ctrShowPerson1.Font = new System.Drawing.Font("Tahoma", 7F);
             this.ctrShowPerson1.Location = new System.Drawing.Point(12, 74);
             this.ctrShowPerson1.Name = "ctrShowPerson1";
+            this.ctrShowPerson1.obPerson = null;
             this.ctrShowPerson1.Size = new System.Drawing.Size(1054, 386);
             this.ctrShowPerson1.TabIndex = 0;
             // 
@@ -69,8 +70,9 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ctrListDdriverLicenses1);
             this.Controls.Add(this.ctrShowPerson1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frmListLicenseHistory";
-            this.Text = "frmShowLicenseHistory";
+            this.Text = "Show License History";
             this.Load += new System.EventHandler(this.frmShowLicenseHistory_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

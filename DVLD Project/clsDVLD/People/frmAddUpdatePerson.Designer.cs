@@ -61,6 +61,7 @@
             this.ClientSize = new System.Drawing.Size(1203, 697);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.ctrAddPerson1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frmAddUpdatePerson";
             this.Text = "Add Person";
             this.Load += new System.EventHandler(this.Form1_Load);

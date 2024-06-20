@@ -66,9 +66,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 18F);
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(190, -30);
+            this.label1.Location = new System.Drawing.Point(222, -37);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(436, 29);
+            this.label1.Size = new System.Drawing.Size(551, 36);
             this.label1.TabIndex = 13;
             this.label1.Text = "International Driving License Application";
             // 
@@ -77,9 +78,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 18F);
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(152, 34);
+            this.label2.Location = new System.Drawing.Point(177, 42);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(373, 29);
+            this.label2.Size = new System.Drawing.Size(470, 36);
             this.label2.TabIndex = 20;
             this.label2.Text = "Renew Driving License Application";
             // 
@@ -88,9 +90,10 @@
             this.lnlbShowRenewlicense.AutoSize = true;
             this.lnlbShowRenewlicense.Enabled = false;
             this.lnlbShowRenewlicense.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.lnlbShowRenewlicense.Location = new System.Drawing.Point(273, 779);
+            this.lnlbShowRenewlicense.Location = new System.Drawing.Point(318, 959);
+            this.lnlbShowRenewlicense.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnlbShowRenewlicense.Name = "lnlbShowRenewlicense";
-            this.lnlbShowRenewlicense.Size = new System.Drawing.Size(241, 18);
+            this.lnlbShowRenewlicense.Size = new System.Drawing.Size(314, 23);
             this.lnlbShowRenewlicense.TabIndex = 19;
             this.lnlbShowRenewlicense.TabStop = true;
             this.lnlbShowRenewlicense.Text = "Show Renew License License Details";
@@ -101,9 +104,10 @@
             this.lnkLicneseHistory.AutoSize = true;
             this.lnkLicneseHistory.Enabled = false;
             this.lnkLicneseHistory.Font = new System.Drawing.Font("Tahoma", 11F);
-            this.lnkLicneseHistory.Location = new System.Drawing.Point(46, 779);
+            this.lnkLicneseHistory.Location = new System.Drawing.Point(54, 959);
+            this.lnkLicneseHistory.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lnkLicneseHistory.Name = "lnkLicneseHistory";
-            this.lnkLicneseHistory.Size = new System.Drawing.Size(196, 18);
+            this.lnkLicneseHistory.Size = new System.Drawing.Size(253, 23);
             this.lnkLicneseHistory.TabIndex = 18;
             this.lnkLicneseHistory.TabStop = true;
             this.lnkLicneseHistory.Text = "Show License License History";
@@ -113,10 +117,10 @@
             // 
             this.button2.Image = global::DVLD_Presentation.Properties.Resources.icons8_cancel_30;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(551, 772);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button2.Location = new System.Drawing.Point(643, 950);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(119, 34);
+            this.button2.Size = new System.Drawing.Size(139, 42);
             this.button2.TabIndex = 16;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
@@ -147,217 +151,241 @@
             this.groupBox1.Controls.Add(this.lbApplicationID);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 13F);
-            this.groupBox1.Location = new System.Drawing.Point(21, 487);
+            this.groupBox1.Location = new System.Drawing.Point(24, 599);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(786, 280);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(917, 345);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Application Renew License Information";
             // 
             // rtxtNote
             // 
-            this.rtxtNote.Location = new System.Drawing.Point(136, 216);
+            this.rtxtNote.Location = new System.Drawing.Point(159, 266);
+            this.rtxtNote.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.rtxtNote.Name = "rtxtNote";
-            this.rtxtNote.Size = new System.Drawing.Size(341, 58);
+            this.rtxtNote.Size = new System.Drawing.Size(397, 70);
             this.rtxtNote.TabIndex = 21;
             this.rtxtNote.Text = "";
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(71, 216);
+            this.label18.Location = new System.Drawing.Point(83, 266);
+            this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(59, 22);
+            this.label18.Size = new System.Drawing.Size(73, 27);
             this.label18.TabIndex = 20;
             this.label18.Text = "Note :";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(453, 183);
+            this.label16.Location = new System.Drawing.Point(528, 225);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(103, 22);
+            this.label16.Size = new System.Drawing.Size(128, 27);
             this.label16.TabIndex = 18;
             this.label16.Text = "Total Fees :";
             // 
             // lbTotalFees
             // 
             this.lbTotalFees.AutoSize = true;
-            this.lbTotalFees.Location = new System.Drawing.Point(583, 183);
+            this.lbTotalFees.Location = new System.Drawing.Point(680, 225);
+            this.lbTotalFees.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbTotalFees.Name = "lbTotalFees";
-            this.lbTotalFees.Size = new System.Drawing.Size(40, 22);
+            this.lbTotalFees.Size = new System.Drawing.Size(48, 27);
             this.lbTotalFees.TabIndex = 19;
             this.lbTotalFees.Text = "N/A";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(68, 183);
+            this.label14.Location = new System.Drawing.Point(79, 225);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(120, 22);
+            this.label14.Size = new System.Drawing.Size(151, 27);
             this.label14.TabIndex = 16;
             this.label14.Text = "License Fees :";
             // 
             // lbLicenseFees
             // 
             this.lbLicenseFees.AutoSize = true;
-            this.lbLicenseFees.Location = new System.Drawing.Point(194, 183);
+            this.lbLicenseFees.Location = new System.Drawing.Point(226, 225);
+            this.lbLicenseFees.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbLicenseFees.Name = "lbLicenseFees";
-            this.lbLicenseFees.Size = new System.Drawing.Size(40, 22);
+            this.lbLicenseFees.Size = new System.Drawing.Size(48, 27);
             this.lbLicenseFees.TabIndex = 17;
             this.lbLicenseFees.Text = "N/A";
             // 
             // lbOldLicenseID
             // 
             this.lbOldLicenseID.AutoSize = true;
-            this.lbOldLicenseID.Location = new System.Drawing.Point(580, 74);
+            this.lbOldLicenseID.Location = new System.Drawing.Point(677, 91);
+            this.lbOldLicenseID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbOldLicenseID.Name = "lbOldLicenseID";
-            this.lbOldLicenseID.Size = new System.Drawing.Size(40, 22);
+            this.lbOldLicenseID.Size = new System.Drawing.Size(48, 27);
             this.lbOldLicenseID.TabIndex = 15;
             this.lbOldLicenseID.Text = "N/A";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(421, 74);
+            this.label13.Location = new System.Drawing.Point(491, 91);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(137, 22);
+            this.label13.Size = new System.Drawing.Size(169, 27);
             this.label13.TabIndex = 14;
             this.label13.Text = "Old License ID :";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(414, 113);
+            this.label10.Location = new System.Drawing.Point(483, 139);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(142, 22);
+            this.label10.Size = new System.Drawing.Size(176, 27);
             this.label10.TabIndex = 12;
             this.label10.Text = "Expiration Date :";
             // 
             // lbExpirationDate
             // 
             this.lbExpirationDate.AutoSize = true;
-            this.lbExpirationDate.Location = new System.Drawing.Point(580, 113);
+            this.lbExpirationDate.Location = new System.Drawing.Point(677, 139);
+            this.lbExpirationDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbExpirationDate.Name = "lbExpirationDate";
-            this.lbExpirationDate.Size = new System.Drawing.Size(40, 22);
+            this.lbExpirationDate.Size = new System.Drawing.Size(48, 27);
             this.lbExpirationDate.TabIndex = 13;
             this.lbExpirationDate.Text = "N/A";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(82, 113);
+            this.label7.Location = new System.Drawing.Point(96, 139);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(106, 22);
+            this.label7.Size = new System.Drawing.Size(132, 27);
             this.label7.TabIndex = 10;
             this.label7.Text = "Issue Date :";
             // 
             // lbIssueDate
             // 
             this.lbIssueDate.AutoSize = true;
-            this.lbIssueDate.Location = new System.Drawing.Point(193, 113);
+            this.lbIssueDate.Location = new System.Drawing.Point(225, 139);
+            this.lbIssueDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbIssueDate.Name = "lbIssueDate";
-            this.lbIssueDate.Size = new System.Drawing.Size(40, 22);
+            this.lbIssueDate.Size = new System.Drawing.Size(48, 27);
             this.lbIssueDate.TabIndex = 11;
             this.lbIssueDate.Text = "N/A";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(38, 150);
+            this.label5.Location = new System.Drawing.Point(44, 185);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(149, 22);
+            this.label5.Size = new System.Drawing.Size(184, 27);
             this.label5.TabIndex = 8;
             this.label5.Text = "Application Fees :";
             // 
             // lbApplicationFees
             // 
             this.lbApplicationFees.AutoSize = true;
-            this.lbApplicationFees.Location = new System.Drawing.Point(194, 150);
+            this.lbApplicationFees.Location = new System.Drawing.Point(226, 185);
+            this.lbApplicationFees.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbApplicationFees.Name = "lbApplicationFees";
-            this.lbApplicationFees.Size = new System.Drawing.Size(40, 22);
+            this.lbApplicationFees.Size = new System.Drawing.Size(48, 27);
             this.lbApplicationFees.TabIndex = 9;
             this.lbApplicationFees.Text = "N/A";
             // 
             // lbCreatedBy
             // 
             this.lbCreatedBy.AutoSize = true;
-            this.lbCreatedBy.Location = new System.Drawing.Point(581, 150);
+            this.lbCreatedBy.Location = new System.Drawing.Point(678, 185);
+            this.lbCreatedBy.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbCreatedBy.Name = "lbCreatedBy";
-            this.lbCreatedBy.Size = new System.Drawing.Size(40, 22);
+            this.lbCreatedBy.Size = new System.Drawing.Size(48, 27);
             this.lbCreatedBy.TabIndex = 7;
             this.lbCreatedBy.Text = "N/A";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(448, 150);
+            this.label8.Location = new System.Drawing.Point(523, 185);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(108, 22);
+            this.label8.Size = new System.Drawing.Size(134, 27);
             this.label8.TabIndex = 6;
             this.label8.Text = "Created By :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(38, 74);
+            this.label4.Location = new System.Drawing.Point(44, 91);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(150, 22);
+            this.label4.Size = new System.Drawing.Size(185, 27);
             this.label4.TabIndex = 2;
             this.label4.Text = "Application Date :";
             // 
             // lbRenewLicenseID
             // 
             this.lbRenewLicenseID.AutoSize = true;
-            this.lbRenewLicenseID.Location = new System.Drawing.Point(579, 37);
+            this.lbRenewLicenseID.Location = new System.Drawing.Point(676, 46);
+            this.lbRenewLicenseID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbRenewLicenseID.Name = "lbRenewLicenseID";
-            this.lbRenewLicenseID.Size = new System.Drawing.Size(40, 22);
+            this.lbRenewLicenseID.Size = new System.Drawing.Size(48, 27);
             this.lbRenewLicenseID.TabIndex = 5;
             this.lbRenewLicenseID.Text = "N/A";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(370, 37);
+            this.label6.Location = new System.Drawing.Point(432, 46);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(187, 22);
+            this.label6.Size = new System.Drawing.Size(233, 27);
             this.label6.TabIndex = 4;
             this.label6.Text = " Renewed License ID :";
             // 
             // lbApplicationDate
             // 
             this.lbApplicationDate.AutoSize = true;
-            this.lbApplicationDate.Location = new System.Drawing.Point(194, 74);
+            this.lbApplicationDate.Location = new System.Drawing.Point(226, 91);
+            this.lbApplicationDate.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbApplicationDate.Name = "lbApplicationDate";
-            this.lbApplicationDate.Size = new System.Drawing.Size(40, 22);
+            this.lbApplicationDate.Size = new System.Drawing.Size(48, 27);
             this.lbApplicationDate.TabIndex = 3;
             this.lbApplicationDate.Text = "N/A";
             // 
             // lbApplicationID
             // 
             this.lbApplicationID.AutoSize = true;
-            this.lbApplicationID.Location = new System.Drawing.Point(193, 37);
+            this.lbApplicationID.Location = new System.Drawing.Point(225, 46);
+            this.lbApplicationID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbApplicationID.Name = "lbApplicationID";
-            this.lbApplicationID.Size = new System.Drawing.Size(40, 22);
+            this.lbApplicationID.Size = new System.Drawing.Size(48, 27);
             this.lbApplicationID.TabIndex = 1;
             this.lbApplicationID.Text = "N/A";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(53, 37);
+            this.label3.Location = new System.Drawing.Point(62, 46);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(133, 22);
+            this.label3.Size = new System.Drawing.Size(162, 27);
             this.label3.TabIndex = 0;
             this.label3.Text = "Application ID :";
             // 
             // ctrLicenseDetailsWithFilter1
             // 
             this.ctrLicenseDetailsWithFilter1.Font = new System.Drawing.Font("Tahoma", 7F);
-            this.ctrLicenseDetailsWithFilter1.Location = new System.Drawing.Point(21, 65);
-            this.ctrLicenseDetailsWithFilter1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ctrLicenseDetailsWithFilter1.Location = new System.Drawing.Point(24, 80);
+            this.ctrLicenseDetailsWithFilter1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.ctrLicenseDetailsWithFilter1.Name = "ctrLicenseDetailsWithFilter1";
-            this.ctrLicenseDetailsWithFilter1.Size = new System.Drawing.Size(758, 427);
+            this.ctrLicenseDetailsWithFilter1.Size = new System.Drawing.Size(884, 526);
             this.ctrLicenseDetailsWithFilter1.TabIndex = 17;
             this.ctrLicenseDetailsWithFilter1.OnSerachButton += new System.Action<int>(this.ctrLicenseDetailsWithFilter1_OnSerachButton);
             // 
@@ -367,10 +395,10 @@
             this.btnRenew.Enabled = false;
             this.btnRenew.Image = global::DVLD_Presentation.Properties.Resources.IssueDrivingLicense_32;
             this.btnRenew.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRenew.Location = new System.Drawing.Point(685, 772);
-            this.btnRenew.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.btnRenew.Location = new System.Drawing.Point(799, 950);
+            this.btnRenew.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.btnRenew.Name = "btnRenew";
-            this.btnRenew.Size = new System.Drawing.Size(119, 34);
+            this.btnRenew.Size = new System.Drawing.Size(139, 42);
             this.btnRenew.TabIndex = 15;
             this.btnRenew.Text = "Renew";
             this.btnRenew.UseVisualStyleBackColor = true;
@@ -378,9 +406,9 @@
             // 
             // frmRenewDrivingLicense
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(860, 818);
+            this.ClientSize = new System.Drawing.Size(1003, 1007);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lnlbShowRenewlicense);
@@ -389,8 +417,10 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnRenew);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmRenewDrivingLicense";
-            this.Text = "frmRenewDrivingLicense";
+            this.Text = "Renew Driving License";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

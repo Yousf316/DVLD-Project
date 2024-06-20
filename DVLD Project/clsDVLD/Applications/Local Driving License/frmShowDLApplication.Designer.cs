@@ -44,8 +44,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1056, 524);
             this.Controls.Add(this.ctrShowLDLApplicationInfo1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frmShowDLApplication";
-            this.Text = "frmShowDLApplication";
+            this.Text = "Show DL Application";
             this.Load += new System.EventHandler(this.frmShowDLApplication_Load);
             this.ResumeLayout(false);
 

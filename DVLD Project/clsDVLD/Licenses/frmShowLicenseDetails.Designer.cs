@@ -34,18 +34,20 @@
             // ctrLicenseDetails1
             // 
             this.ctrLicenseDetails1.Location = new System.Drawing.Point(-1, 12);
+            this.ctrLicenseDetails1.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.ctrLicenseDetails1.Name = "ctrLicenseDetails1";
             this.ctrLicenseDetails1.Size = new System.Drawing.Size(1045, 483);
             this.ctrLicenseDetails1.TabIndex = 0;
             // 
-            // frmSowLicenseDetails
+            // frmShowLicenseDetails
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1056, 491);
             this.Controls.Add(this.ctrLicenseDetails1);
-            this.Name = "frmSowLicenseDetails";
-            this.Text = "frmSowLicenseDetails";
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.Name = "frmShowLicenseDetails";
+            this.Text = "Show License Details";
             this.Load += new System.EventHandler(this.frmSowLicenseDetails_Load);
             this.ResumeLayout(false);
 

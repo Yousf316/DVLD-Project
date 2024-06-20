@@ -35,9 +35,9 @@
             this.lbRecordsCount = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.dgvListDrivers = new System.Windows.Forms.DataGridView();
-            this.cmbFinds = new System.Windows.Forms.ComboBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.showPerosnLicenseHistoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cmbFinds = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvListDrivers)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -106,19 +106,6 @@
             this.dgvListDrivers.Size = new System.Drawing.Size(1043, 379);
             this.dgvListDrivers.TabIndex = 33;
             // 
-            // cmbFinds
-            // 
-            this.cmbFinds.FormattingEnabled = true;
-            this.cmbFinds.Items.AddRange(new object[] {
-            "None",
-            "NationalNo",
-            "FullName"});
-            this.cmbFinds.Location = new System.Drawing.Point(132, 80);
-            this.cmbFinds.Name = "cmbFinds";
-            this.cmbFinds.Size = new System.Drawing.Size(161, 24);
-            this.cmbFinds.TabIndex = 41;
-            this.cmbFinds.SelectedIndexChanged += new System.EventHandler(this.cmbFind_SelectedIndexChanged);
-            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -134,6 +121,19 @@
             this.showPerosnLicenseHistoryToolStripMenuItem.Text = "Show Perosn License History";
             this.showPerosnLicenseHistoryToolStripMenuItem.Click += new System.EventHandler(this.showPerosnLicenseHistoryToolStripMenuItem_Click);
             // 
+            // cmbFinds
+            // 
+            this.cmbFinds.FormattingEnabled = true;
+            this.cmbFinds.Items.AddRange(new object[] {
+            "None",
+            "NationalNo",
+            "FullName"});
+            this.cmbFinds.Location = new System.Drawing.Point(132, 80);
+            this.cmbFinds.Name = "cmbFinds";
+            this.cmbFinds.Size = new System.Drawing.Size(161, 24);
+            this.cmbFinds.TabIndex = 41;
+            this.cmbFinds.SelectedIndexChanged += new System.EventHandler(this.cmbFind_SelectedIndexChanged);
+            // 
             // frmListDrivers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
@@ -146,8 +146,9 @@
             this.Controls.Add(this.lbRecordsCount);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dgvListDrivers);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frmListDrivers";
-            this.Text = "frmListDrivers";
+            this.Text = "List Drivers";
             this.Load += new System.EventHandler(this.frmListDrivers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvListDrivers)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);

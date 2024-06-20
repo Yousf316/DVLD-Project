@@ -354,7 +354,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 2, 4, 2);
             this.Name = "frmManageLocalDrivingLicenseApplication";
-            this.Text = "211";
+            this.Text = "List LD License";
             this.Load += new System.EventHandler(this.frmManageLocalDrivingLicenseApplication_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);

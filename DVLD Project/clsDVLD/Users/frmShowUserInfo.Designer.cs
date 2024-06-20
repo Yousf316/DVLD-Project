@@ -44,8 +44,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1068, 662);
             this.Controls.Add(this.ctrShowUserInfo1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "frmShowUserInfo";
-            this.Text = "frmShowUserInfo";
+            this.Text = "Show User Info";
             this.Load += new System.EventHandler(this.frmShowUserInfo_Load);
             this.ResumeLayout(false);
 
